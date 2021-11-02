@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background-color: black;
+    font-size: 15px;
+    height: 100%;
+}
+
+main {
+    background: rgb(255,204,0);
+    background: linear-gradient(45deg, rgba(255,204,0,1) 40%, rgba(0,102,204,1) 60%);
+    color: black;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#gimn {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+}
+
+hr {
+    color: white;
+}
+
+
+
+.photo {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    margin-left: 10px;
+    /* Отступ слева */
+    margin-bottom: 10px;
+    /* Отступ снизу */
+    border-radius: 20px;
+        border: solid 1px;
+        width: 150px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.39);
+}
+
+#ussr {
+    padding-left: 0px;
+    /* Отступ слева */
+    padding-bottom: 0px;
+    /* Отступ снизу */
+}
+
+.ussr {
+    color: black;
+}
+
+.terd{
+    text-align: center;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    background: #7fee1d;
+}
+.trf{
+    padding: 10px;
+    background: rgba(161, 161, 161, 0.39);
+}
+audio::-webkit-media-controls-panel {
+    background: rgb(255,214,0);
+    background: linear-gradient(0deg, rgba(255,214,0,1) 0%, rgba(255,214,0,1) 50%, rgba(0,91,188,1) 50%, rgba(0,91,188,1) 100%);
+}

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
+
+header {
+    color: rgb(0, 0, 0);
+    background: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 20pt;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div {
+    color: white;
+    background:#005bbc ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header div a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+header div a:hover{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 2%;
+}
+#id {
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+a:active{
+    color: red;
+    border: solid 1px;
+    border-radius: 10px;
+    
+}
+.nav-country {
+    color: white;
+    background: #ffd600;
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-country a:hover {
+    text-decoration: none;
+    color:#000000;
+}
+.nav-country a{
+    color: #ffffff;
+}
+.wer{
+    overflow-x: auto; 
+}
+header a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+main {
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
+}
+a{
+    text-align: center;
+    margin: 1%;
+}
+.derf{
+    color: white;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background: #343c50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
+    color: white;
+    text-align: center;
+}
+.dre{
+    width: 32px;
+    border-radius: 1px;
+}
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #c2c2c2;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: green;
+   
+
+}
+
+footer p {
+    text-indent: 0px;
+}
+
+.fr {
+    width: 40px;
+    border-radius: 0px;
+}
+
+a:hover{
+    transition: 0.5s;
+    border-radius: 10px;
+    border: solid 1px;
+}
+table p{
+    text-indent: 0px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table .flagi{
+    width: 25px;
+    border-radius: 0px;
+    border: 0.1px solid black;
+}
+table .gerbs{
+    width: 100px;
+    border-radius: 2.5px;
+}
+table .gerbs:hover{
+    width: 100px;
+    border-radius: 2.5px;
+    border: none;
+}
+table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
+table a{
+    margin: 0%;
+    font-style: italic;
+    color: #ffffff;
+}
+table a:hover{
+    margin: 0%;
+    color: red
+}
+
+
+
+.gims2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.dark{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background-color: black;
+    font-size: 15px;
+    height: 100%;
+}
+body.dark header{
+    color: white;
+    background: #051a05;
+  
+  
+}
+body.dark main {
+    background: rgb(12, 12, 11);
+   color:  #ffffff;
+  
+}
+body.dark header div {
+    color: white;
+    background-color: #001b00;
+}
+body.dark footer {
+    background: #000000;
+}
+body.dark .rusu23 {
+    background: #00000000;
+}
+body.dark .nav-country {
+    color: white;
+    background-color: #00000000;
+}
+body.dark .nav-country .a {
+    color: white;
+   
+}

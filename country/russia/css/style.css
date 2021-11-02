@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.wer {
+    overflow-x: auto;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    font-size: 15px;
+    height: 100%;
+}
+
+main {
+    background: rgb(213, 43, 30);
+    background: linear-gradient(45deg, rgba(213, 43, 30, 1) 0%, rgba(0, 57, 166, 1) 51%, rgba(255, 255, 255, 1) 100%);
+    color: black;
+    width: 100%;
+    height: auto;
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+main p {
+    text-indent: 30px;
+}
+
+.constitution {
+    text-indent: 0px;
+    margin: 30px 30px 20px 30px;
+}
+
+#gimn {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+h2 a {
+    text-decoration: underline;
+    color: blue;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
+    color: white;
+}
+
+.photo {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.photo img {
+    border-radius: 5px;
+}
+
+.photol {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.photol img {
+    border-radius: 5px;
+}
+
+.plotnost {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 350px;
+    border: solid 1px;
+    border-radius: 15px;
+    overflow-x: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#ussr {
+    padding-left: 0px;
+    /* Отступ слева */
+    padding-bottom: 0px;
+    /* Отступ снизу */
+}
+
+.ussr {
+    color: white;
+    background: rgb(0, 35, 203);
+    background: linear-gradient(180deg, rgba(0, 35, 203, 1) 0%, rgba(91, 0, 147, 1) 51%, rgba(203, 0, 0, 1) 100%);
+}
+
+.center {
+    text-align: center;
+}
+
+.gimn {
+    text-align: center;
+}
+
+.text-gimn p {
+    text-align: left;
+    text-indent: 0px;
+}
+
+.flags {
+    color: white;
+}
+
+.flags a {
+    text-decoration: none;
+    color: white;
+}
+
+.president {
+    color: #000;
+    background: rgb(214, 39, 24);
+    background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 2px;
+    border-color: black;
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
+}
+
+.imperia {
+    color: #fff;
+    background: linear-gradient(to top right, rgb(51, 0, 0), rgb(55, 9, 9), rgb(58, 9, 9), rgb(62, 8, 8), rgb(65, 42, 8), rgb(81, 8, 8), rgb(8, 72, 98), rgb(8, 76, 114), rgb(8, 79, 130), rgb(7, 83, 146), rgb(7, 86, 163), rgb(7, 90, 179));
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 2px;
+    border-color: black;
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
+}
+
+.preside {
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 10px;
+}
+
+@keyframes presid {
+    0% {
+        background: white;
+        color: black;
+    }
+    25% {
+        background: #0039A6;
+        color: white;
+    }
+    50% {
+        background: #D52B1E;
+        color: white;
+    }
+    75% {
+        background: #0039A6;
+        color: white;
+    }
+    100% {
+        background: white;
+        color: black;
+    }
+}
+
+.elsin {
+    text-align: center;
+}
+
+.putin {
+    text-align: center;
+    margin: 1%;
+}
+
+.medvedev {
+    text-align: center;
+    margin: 1%;
+}
+
+.empire {
+    border: 1px solid black;
+    margin: 1%;
+}
+
+.ty {
+    text-indent: 0px;
+}
+
+.pres {
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: black;
+    width: 250px;
+    padding: 1px;
+}
+
+.pres:hover {
+    border-radius: 25px;
+    border: solid 1px;
+    border-color: black;
+    width: 250px;
+    transition: 0.5s;
+}
+
+@keyframes prewe {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: red;
+    }
+    50% {
+        border-color: #0039A6;
+    }
+    75% {
+        border-color: red;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+.kek {
+    background: url("flag-of-Russia.png");
+    background-size: 100%;
+}
+
+.kek-2 {
+    color: white;
+}
+
+.kek-3 {
+    color: white;
+}
+
+.kek-3:hover {
+    color: blue;
+}
+
+.VK {
+    border-radius: 20px;
+}
+
+.frd {
+    width: auto;
+    height: 30px;
+}
+
+.frd:hover {
+    width: auto;
+    height: 40px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #343c50;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
+    color: white;
+    text-align: center;
+}
+
+.dre {
+    width: 32px;
+    border-radius: 1px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #c2c2c2;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+footer p {
+    text-indent: 0px;
+}
+
+.fr {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.redr {
+    width: 75px;
+    border-radius: 1px;
+}
+
+/*таблица*/
+
+table p {
+    text-indent: 0px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table .flagi {
+    width: 25px;
+    border-radius: 0px;
+    border: 0.1px solid black;
+}
+
+table .gerbs {
+    width: 100px;
+    border-radius: 2.5px;
+}
+
+table .gerbs:hover {
+    width: 100px;
+    border-radius: 2.5px;
+    border: none;
+}
+
+table td {
+    height: 30px;
+    vertical-align: center;
+}
+
+/* выравнивание по верхней границе ячейки */
+
+table a {
+    margin: 0%;
+    font-style: italic;
+    color: #ffffff;
+}
+
+table a:hover {
+    margin: 0%;
+    color: red
+}
