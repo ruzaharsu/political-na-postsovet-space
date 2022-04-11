@@ -2,7 +2,10 @@
 @import url("/russia/fonts/roboto/stylesheet.css");
 header {
     color: white;
-    background-color: #155a15;
+   background: #ffffff;/*осн тема*/
+   /* background: url("/snwflks-21.gif");
+ background-blend-mode: multiply;
+ background-color: #00000034;*/
     width: 100%;
     height: auto;
     display: flex;
@@ -37,7 +40,7 @@ header {
 
 header div {
     color: white;
-    background-color: #134d1360;
+    background-color: #155a1500;
     width: 100%;
     height: auto;
     display: flex;
@@ -49,7 +52,7 @@ header div {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 2%;
 }
 
@@ -96,7 +99,7 @@ a {
 footer {
     width: 100%;
     height: auto;
-    background: #343c50;
+    background: #D52B1E;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -234,26 +237,36 @@ body.dark{
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
     background-color: black;
+    
     font-size: 15px;
     height: 100%;
 }
 body.dark header{
     color: white;
-    background: #051a05;
+    
+  background: #c73a0b;/*осн тема*/
+ /*background: url("/snwflks-21.gif");
+ background-blend-mode: multiply;
+ background-color: #00000034;*/
   
   
 }
+body.dark header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 2%;
+}
 body.dark main {
-    background: rgb(12, 12, 11);
+    background: #eb7c0f;
    
   
 }
 body.dark header div {
     color: white;
-    background-color: #001b00;
+    background-color: #001b0000;
 }
 body.dark footer {
-    background: #000000;
+    background: #224f3b;
 }
 body.dark div table{
     color:#ffffff;

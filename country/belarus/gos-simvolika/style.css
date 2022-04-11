@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background-color: black;
+    font-size: 15px;
+    height: 100%;
+}
+
+
+div a {
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+
+#id {
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+
+
+
+
+
+main {
+    background: rgb(0,175,102);
+    background: linear-gradient(45deg, rgba(0,175,102,1) 45%, rgb(156, 29, 36) 55%);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#gimn {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+}
+
+hr {
+    color: white;
+}
+
+
+
+
+.photo {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+.photo img{
+    border-radius: 5px;
+}
+.photol {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+.photol img{
+    border-radius: 5px;
+}
+#ussr {
+    padding-left: 0px;
+    /* Отступ слева */
+    padding-bottom: 0px;
+    /* Отступ снизу */
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ussr {
+    
+    color: white;
+}
+
+.gimn {
+    text-align: center;
+}
+
+.president {
+    color: white;
+    
+    border: solid 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.lukashenko {
+    margin: 1%;
+    text-align: center;
+}
+
+.pres {
+    border-radius: 20px;
+    border: solid 5px;
+    border-color: red;
+    width: 250px;
+    animation: prewe 5s infinite;
+}
+audio::-webkit-media-controls-panel {
+    background: rgb(0,175,102);
+    background: linear-gradient(315deg, rgba(0,175,102,1) 45%, rgba(210,38,48,1) 55%);
+}
+/**/
+.dark audio::-webkit-media-controls-panel {
+    background: rgb(44, 44, 44);
+
+}

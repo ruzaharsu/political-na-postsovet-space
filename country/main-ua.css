@@ -2,7 +2,7 @@
 
 header {
     color: rgb(0, 0, 0);
-    background: #155a15;
+    background: #155a1500;
     width: 100%;
     height: auto;
     display: flex;
@@ -15,7 +15,7 @@ header {
 
 header div {
     color: white;
-    background:#005bbc ;
+    background:#005bbc00 ;
     width: 100%;
     height: auto;
     display: flex;
@@ -50,7 +50,7 @@ a:active{
 }
 .nav-country {
     color: white;
-    background: #ffd600;
+    background: #ffd50000;
 
     width: 100%;
     height: auto;
@@ -75,10 +75,7 @@ header a:hover {
     color: red;
 }
 
-main {
-    font-family: 'Bellota', cursive;
-    font-size: 16px;
-}
+
 a{
     text-align: center;
     margin: 1%;
@@ -89,7 +86,7 @@ a{
 footer {
     width: 100%;
     height: auto;
-    background: #343c50;
+    background: #343c5000;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -168,39 +165,3 @@ table a:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body.dark{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: auto;
-    background-color: black;
-    font-size: 15px;
-    height: 100%;
-}
-body.dark header{
-    color: white;
-    background: #051a05;
-  
-  
-}
-body.dark main {
-    background: rgb(12, 12, 11);
-   color:  #ffffff;
-  
-}
-body.dark header div {
-    color: white;
-    background-color: #001b00;
-}
-body.dark footer {
-    background: #000000;
-}
-body.dark .rusu23 {
-    background: #00000000;
-}
-body.dark .nav-country {
-    color: white;
-    background-color: #00000000;
-}
-body.dark .nav-country .a {
-    color: white;
-   
-}
