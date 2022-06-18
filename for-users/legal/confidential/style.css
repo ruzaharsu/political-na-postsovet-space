@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body, html{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background: black;
+    font-size: 15px;
+    height: 100%;
+}
+
+
+div a{
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+.sos{
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+}
+.sos:hover{
+    text-decoration: none;
+    color: red;
+    margin: 0%;
+}
+div a:hover{
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+#id{
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+#nav-country{
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+main{
+    background: rgb(9,94,121);
+background: linear-gradient(45deg, rgba(9,94,121,1) 0%, rgba(0,22,36,1) 100%);
+    color:white;
+    width: 100%;
+    height: auto;
+   
+
+}
+p{
+    text-indent: 30px;
+}
+#gimn{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h2{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h3{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+}
+hr{
+    color: white;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #dad9d9 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3d3d3d;
+}
+footer a:hover{
+    text-decoration: none;
+    color: red;
+}
+.photo{
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+} 
+#ussr{
+    padding-left:0px; /* Отступ слева */
+    padding-bottom: 0px; /* Отступ снизу */
+}
+
+.ussr{
+    background-color: black;
+    color: white;
+}
+
+#bpart{
+    float: left; 
+    width:  20px;
+    height: 20px;
+    background: red;
+
+}
+#part{
+    float: left; 
+    width:  20px;
+    height: 20px;
+    background: blue;
+
+}
+.center{
+    text-align: center;
+}
+ol {
+    /* убираем стандартную нумерацию */
+    list-style: none;
+    /* Идентифицируем счетчик и даем ему имя li. Значение счетчика не указано - по умолчанию оно равно 0 */
+    counter-reset: li;
+ }
+ li:before {
+    /* Определяем элемент, который будет нумероваться — li. Псевдоэлемент before указывает, что содержимое, вставляемое при помощи свойства content, будет располагаться перед пунктами списка. Здесь же устанавливается значение приращения счетчика (по умолчанию равно 1). */
+    counter-increment: li;
+    /* С помощью свойства content выводится номер пункта списка. counters() означает, что генерируемый текст представляет собой значения всех счетчиков с таким именем. Точка в кавычках добавляет разделяющую точку между цифрами, а точка с пробелом добавляется перед содержимым каждого пункта списка */
+    content: counters(li, ".") ". ";
+ }
+
+
+
